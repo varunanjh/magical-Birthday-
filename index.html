@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magical Birthday! ❄️✨</title>
+    <title>Birthday Surprise</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <audio id="bgMusic" loop><source src="music.mp3" type="audio/mpeg"></audio>
-    <section id="welcomeScreen" class="screen active">
-        <h1>Welcome to Your Magic World! 🎈</h1>
-        <button id="startBtn">Enter Adventure</button>
-    </section>
+    <audio id="bgMusic" loop src="music.mp3"></audio>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <button id="startBtn">Click to Start</button>
+        <div id="gallery" class="hidden">
+            <img id="imgDisplay" src="photo1.jpg">
+            <br>
+            <button onclick="nextImg()">Next Photo</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
