@@ -1,4 +1,4 @@
-body { font-family: 'Comic Sans MS', sans-serif; background: linear-gradient(to bottom, #87ceeb, #f0f8ff); text-align: center; color: #2b3a42; }
-.screen { display: none; height: 100vh; flex-direction: column; justify-content: center; align-items: center; }
-.active { display: flex; }
-button { padding: 20px 40px; font-size: 1.5rem; background: #ffcc00; border: none; border-radius: 50px; cursor: pointer; }
+body { text-align: center; padding: 50px; font-family: sans-serif; }
+.hidden { display: none; }
+img { width: 300px; border-radius: 15px; margin: 20px; }
+button { padding: 15px 30px; font-size: 18px; cursor: pointer; }
